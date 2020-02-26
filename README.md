@@ -51,9 +51,9 @@ The web socket url is `ws://localhost:1337`.
    - Subscribe to updates from the web socket to get the latest health for the machine.
    - Allow for the "Name" of the machine to be updated.
 4. Build a reusable `<Health>` component that is used by both the `/machines` and `/machines/:machineId` view, with the ability to optionally render the health as a numerical value for `/machines/:machineId`. The meter will render a color based upon the health value that it reflects:
-   - 0-50: `#5cb85c`
+   - 0-50: `#D9534F`
    - 51-70: `#f0ad4e`
-   - 71-100: `#f0ad4e`
+   - 71-100: `#5cb85c`
 
 * Each Component should have a test
 * Add Redux to manage the new state being introduced for this challenge
